@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0.842), rgba(0,0,0,0.7)), url(/assets/images/collection1.jpg); */
+    background: #eeeeeedc;
+    backdrop-filter: blur(2px);
+    image-rendering: optimizeQuality;
+    background-attachment: fixed;
+    opacity: 1;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+.termsOfService {
+    width: 500px;
+    height: min-content;
+    padding: px;
+    border-radius: 12px;
+    background: #ffffff;
+    margin: 1rem 1rem;
+
+}
+
+.termsOfService h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+
+.heading{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    column-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.headingText{
+    padding-top: 1rem;
+}
+
+.headingText h3{
+    color: rgb(59, 59, 59);
+    font-size: 23px;
+}
+.headingText h4{
+    color: rgba(59, 59, 59, 0.932);
+    font-size: 22px;
+}
+
+.headingText p{
+    color: rgba(80, 80, 80, 0.623);
+    font-size: 13.5px;
+}
+
+.logo{
+    width: 60px;
+}
+
+
+.mainText{
+    width: 80%;
+    margin: auto;
+}
+
+.mainText h4{
+    color: rgba(59, 59, 59, 0.863);
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.mainText p{
+    font-size: 14px;
+    color: rgba(80, 80, 80, 0.822);
+}
+
+#more {
+    display: none;
+}
+
+#myBtn{
+    padding: .5rem 1rem;
+    color: white;
+    margin: 2rem ;
+    background: rgba(59, 59, 59, 0.863);
+    border: none;
+}
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    @media (max-width: 350px) {
+        .heading{
+            flex-direction: column;
+        }
+    }
+
+   
