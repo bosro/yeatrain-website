@@ -228,7 +228,7 @@ text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 
@@ -465,13 +465,18 @@ max-width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-padding: 1rem 9.5rem;
+padding: 1rem 1.5rem;
 margin: 1rem;
 font-size: 16px;
 border-radius: 0.5rem;
 background: white;
-box-shadow: 0px 4px 4px 0px #D6D5D540;
+/* box-shadow: 0px 4px 4px 0px #D6D5D540; */
+}
 
+.counter-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 span.num{
 color: #ED3737;
@@ -484,6 +489,8 @@ font-size: 3rem;
 span.text{
 color: #7AB4E9;
 font-size: 1rem;
+display: grid;
+place-items: center;
 text-align: center;
 pad: 0.7em 0;
 line-height: 0;
@@ -775,6 +782,7 @@ letter-spacing: 0.01rem;
 display: flex;
 align-items: center;
 justify-content: center;
+gap: 3rem;
 margin-top: 30px;
 width: 100%;
 
@@ -809,7 +817,12 @@ width: 50%;
 .footerLeft{
 margin-top: 50px;
 margin-bottom: 20px;
+width: 50%;
 }
+
+.footerLeft1{
+  width: 50%;
+  }
 
 .footerLeft h5{
 margin-bottom: 5px;
@@ -845,12 +858,13 @@ color: var(--secondary);
 }
 
 .footerRight{
-width: 25%;
+width: 50%;
 }
 
 .footRight1{
-width: 25%;
+width: 50%;
 }
+
 
 .footerRight .serviceRight{
 display: block;
@@ -893,6 +907,14 @@ color: var(--secondary);
 font-size: 20px;
 }
 
+.label-input{
+  width: 100%;
+}
+
+.label-input input{
+  max-width: 100%;
+}
+
 @media (max-width:768px) {
 footer {
   min-height: 50px;
@@ -924,7 +946,6 @@ footer p{
 }
 
 @media (max-width: 430px) {
-
 .footer{
   display: block;
   gap: 1rem;
@@ -980,4 +1001,4 @@ footer p{
 
 
 
-/***************END OF FOOOTER***************/
+/***************END OF FOOTER***************/
